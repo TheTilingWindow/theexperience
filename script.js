@@ -27,5 +27,6 @@ function change(name) {
                         flag.src = "https://upload.wikimedia.org/wikipedia/commons/c/c0/Flag_of_Jordan.svg"
                         title.innerHTML = "This is Jordan!"
                         parent.style.backgroundImage = 'url("jordanbg.jpg")'
+                        break;
     }
 }
