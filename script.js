@@ -22,11 +22,17 @@ function change(name) {
                     title.innerHTML = "This is Palestine"
                     parent.style.backgroundImage = 'url("palestine.jpg")'
                     break;
-                    case 'jn':
+                    case 'jo':
                         place.src = "jn-place.png"
                         flag.src = "https://upload.wikimedia.org/wikipedia/commons/c/c0/Flag_of_Jordan.svg"
                         title.innerHTML = "This is Jordan!"
                         parent.style.backgroundImage = 'url("jordanbg.jpg")'
                         break;
+                        case 'jp':
+                            place.src = "jp-place.png"
+                            flag.src = "https://upload.wikimedia.org/wikipedia/commons/9/9e/Flag_of_Japan.svg"
+                            title.innerHTML = "This is Japan"
+                            parent.style.backgroundImage = 'url("japanbg.jpg")'
+                            break;
     }
 }
