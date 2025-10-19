@@ -1,0 +1,54 @@
+.header-logo {
+    width: 150px;
+}
+
+body {
+    background-image: url('mainbackground.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+}
+
+.title {
+    font-size: 30px;
+    color: brown;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.flags-list {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.flags-list li {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.flags-list img {
+    width: 50px;
+    border-radius: 5px;
+}
+
+.flag {
+    width: 250px;
+    border-radius: 25px;
+    margin-left: 200px;
+    margin-top: 100px;
+}
+
+.experience {
+  font-family: "BBH Sans Bartle", sans-serif;
+  font-weight: bold;
+  font-style: italic;
+  margin-left: 100px;
+}
+
+.place {
+    position: relative;
+    width: 600px;
+    height: 400px;
+    left: 700px;
+    bottom: 400px ;
+}
