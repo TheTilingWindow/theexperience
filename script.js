@@ -33,7 +33,7 @@ function change(name) {
                             flag.src = "https://upload.wikimedia.org/wikipedia/commons/9/9e/Flag_of_Japan.svg"
                             title.innerHTML = "This is Japan"
                             parent.style.backgroundImage = 'url("japanbg.jpg")'
-                            title.style.outlineColor = "#000000"
+                            title.style.outline = "5px solid #000000"
                             title.style.color = "#FFFFFF"
                             break;
     }
