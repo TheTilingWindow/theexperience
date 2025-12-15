@@ -56,3 +56,8 @@ function hidemenu() {
 function openmenu() {
     document.getElementById('gflag').hidden = false;
 }
+
+function titlecolorjp() {
+    if (document.getElementById('gflag')) {
+    }
+}
