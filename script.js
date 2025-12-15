@@ -3,6 +3,7 @@ function change(name) {
     var flag = document.getElementById('flag')
     var title = document.getElementById('title')
     var parent = document.getElementById('parent')
+    var disclaimer = document.getElementById('disclaimer')
     switch (name) {
         case 'eg':
             place.src = "pyramids.png"
@@ -37,6 +38,7 @@ function change(name) {
                             title.innerHTML = "This is Japan!"
                             parent.style.backgroundImage = 'url("japanbg.jpg")'
                             title.style.color = "#FFFFFF"
+                            disclaimer.style.color = "#FFFFFF"
                             break;
                             case 'kw':
                                 place.src = "kwplace.png"
